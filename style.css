@@ -1,36 +1,95 @@
 body{
-	background-color:  #2ecc71;
-    margin: 0;
+	background-color: MediumSeaGreen;
 }
 
-.content{
-	width: 500px;
-	margin: 0 auto;
-	background-color: rgb(255,255,255) ;
-	padding: 20px;
-}
-
-h1{
-	text-align: center;
-}
-
-.header{
-	text-align: center;
-	padding: 30px;
-	background-color: #f39c12;
-	color: white;
-}
-
-.footer{
-	background-color:  #7f8c8d;
-	text-transform: uppercase;
+.naglowek{
+	color: yellow;
+	border: solid;
+	background-color: blue; 
 	font-weight: bold;
+	text-align: center;
+}
+.rozmiar{
+	width: 800px;
+	margin: auto;
+	border: 5px yellow solid;
+	background-color: #FFFACD;
+
+}
+
+h2{
+	text-align: center;
+	color: red;
+	font-size: 40px;
+	font-style: italic;
+
+}
+
+ul{
+	color: brown;
+	font-size: 30px;
+}
+
+img{
+	border: solid;
+	border-color: orange;
+	border-radius: 50%;
+	
+}
+
+h3{
+	text-align: center;
+	color: grey;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.tekst{
+	text-align: center;
+	font-size: 30px;
+	color:blue;
+}
+
+h4{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.ksia{
+    border:  10px solid;
+    border-color: black;
+    background-color: grey;
+    text-align: center;
+
+
+}
+
+.ksi{
+	font-size: 20px;
+	color:  #DAA520;
+}
+
+.akt{
+ 	border:  10px solid;
+    border-color: purple;
+    background-color: #B0E0E6;
+    text-align: center;
+    color: #4169E1;
+    font-size: 20px;
+}
+
+h5{
+	text-align: center;
+	color: purple;
+	font-size: 50px;
+	font-style: italic;
+}
+.lista{
+	text-align: left;
 }
 
 .stopka{
-	margin: 0;
-	padding-top: 30px;
-	padding-right: 0px;
-	padding-bottom: 15px;
-	padding-left: 20px;
+	text-align: center;
 }
