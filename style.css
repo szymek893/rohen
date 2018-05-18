@@ -1,106 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand' );
+
 body{
-	background-color: MediumSeaGreen;
+	font-family: Quicksand;
+	margin: 0;
+	background-color: #A9A9A9;
 }
 
-header{
-    font-size: 25px;
-    text-align: center;
-}
-
-.naglowek{
-	color: yellow;
-	border: solid;
-	background-color: blue; 
-	font-weight: bold;
+nav{
+	background-color: black;
 	text-align: center;
-}
-.rozmiar{
-	width: 800px;
-	margin: auto;
-	border: 5px yellow solid;
-	background-color: #FFFACD;
-
-}
-
-h2{
-	text-align: center;
-	color: red;
-	font-size: 40px;
-	font-style: italic;
-
 }
 
 ul{
-	color: brown;
-	font-size: 30px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
-img{
-	border: solid;
-	border-color: orange;
-	border-radius: 50%;
-	
+
+nav li{
+	color: #DCDCDC;
+	display: inline-block;
+	/*margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 50px;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+	transition: background-color 1s;
+
 }
 
-h3{
-	text-align: center;
-	color: grey;
-	font-size: 40px;
-	font-style: italic;
+nav li:hover{
+	background-color: grey;
 }
 
-.tekst{
-	text-align: center;
-	font-size: 30px;
-	color:blue;
+a{
+	text-decoration: none;
 }
 
-h4{
-	text-align: center;
+
+a:visited{
 	color: white;
-	font-size: 40px;
-	font-style: italic;
 }
 
-.ksia{
-    border:  10px solid;
-    border-color: black;
-    background-color: grey;
-    text-align: center;
-
-
+nav ul ul li{
+	display: block;
 }
 
-.ksi{
-	font-size: 20px;
-	color:  #DAA520;
+nav li ul{
+	display: none;
 }
 
-.akt{
- 	border:  10px solid;
-    border-color: purple;
-    background-color: #B0E0E6;
-    text-align: center;
-    color: #4169E1;
-    font-size: 20px;
-}
+nav li:hover ul{
+	display: block;
+	position: absolute;
+	background-color: black;
 
-h5{
-	text-align: center;
-	color: purple;
-	font-size: 50px;
-	font-style: italic;
-}
-.lista{
-	text-align: left;
-}
 
-.stopka{
-	text-align: center;
-}
-
-footer {
-    margin-top: 60px;
-    padding: 30px;
-    background: #333333;
 }
